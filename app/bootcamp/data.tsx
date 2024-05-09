@@ -1,14 +1,14 @@
 export const dappBootcampsCategoryNavData = [
   {
     id: 1,
-    title: 'English',
+    title: 'Bootcamp (english version)',
     slug: '/bootcamp/en',
     parent: null,
   },
   {
     id: 2,
     title: 'Solidity',
-    slug: '/library/dapp-bootcamps/vi/solidity',
+    slug: '/bootcamp/en/solidity',
     parent: null
   },
 ]
@@ -17,7 +17,19 @@ export const dappBootcampsItemNavData = [
   {
     id: 3,
     title: 'Blockchain and Kaia Overview',
-    slug: '/bootcamp/en/solidity/intro/blockchain-and-kaia-overview',
+    slug: '/bootcamp/en/solidity/blockchain-and-kaia-overview',
+    parent: 2
+  },
+  {
+    id: 4,
+    title: 'Solidity File Structure',
+    slug: '/bootcamp/en/solidity/solidity-file-structure',
+    parent: 2
+  },
+  {
+    id: 5,
+    title: 'Contract structure',
+    slug: '/bootcamp/en/solidity/contract-structure',
     parent: 2
   }
 ]
